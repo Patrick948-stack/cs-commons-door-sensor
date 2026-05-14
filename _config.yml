@@ -1,0 +1,7 @@
+theme: jekyll-theme-cayman
+title: CS Commons Door Sensor
+description: >
+  An ESP32-S3 project that detects doorway entry, plays a welcome 
+  audio message, and sends a Bluetooth notification to a phone.
+  Built for the Whitman College CS Commons room.
+show_downloads: false
