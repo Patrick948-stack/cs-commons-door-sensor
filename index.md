@@ -50,6 +50,8 @@ decides whether someone entered the room or not, and sends output to both the
 speaker and the phone simultaneously.
 
 ![System overview diagram](hardware/images/diagram.png)
+*Overview of the three main components and how data flows between them.*
+
 
 **Inputs:**
 - Ultrasonic sensor — measures the distance to whatever is in front of it by sending
@@ -110,8 +112,9 @@ Wire one component at a time. After each one, open the Serial Monitor
 at 115200 baud and verify you see the expected output before adding
 the next. This makes troubleshooting much faster.
 
-![Breadboard wiring photo](hardware/images/wiring1.png)
 ![Breadboard wiring photo](hardware/images/circuit-diagram.png)
+*The fully wired breadboard. Detailed circuit diagram.*
+
 
 
 Each table below tells you which wire goes where. You are connecting
@@ -184,8 +187,7 @@ and the speaker converts it to sound.
 
 ![Full assembled build](hardware/images/build1.jpeg)
 ![Full assembled build](hardware/images/build2.jpeg)
-
-*The fully wired breadboard. Cross-reference this photo with the
+*The fully wired breadboard. Cross-reference these photos with the
 tables above if you are unsure where a wire belongs.*
 
 
@@ -238,6 +240,8 @@ still play, keeping the system from crashing just
 because one forgot to connect to the BLE.
 
 ![LightBlue notification screenshot](hardware/images/ble-alert.png)
+*A numbered alert arriving on the phone through LightBlue when someone enters the room.*
+
 
 ---
 
