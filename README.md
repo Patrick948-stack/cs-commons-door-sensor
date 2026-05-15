@@ -6,7 +6,7 @@ This becomes the baseline. Every 300 milliseconds, it takes a new averaged readi
 If the difference exceeds 20 cm, movement is detected. A 5-second waiting period
 prevents repeated triggers from a single entry.
 
-![CS Commons Door Sensor Project Architecture][(hardware/images/diagram.png)](https://raw.githubusercontent.com/Patrick948-stack/cs-commons-door-sensor/main/hardware/images/diagram.png) 
+![CS Commons Door Sensor Project Architecture](https://raw.githubusercontent.com/Patrick948-stack/cs-commons-door-sensor/main/hardware/images/diagram.png) 
 *A Diagram showing the logic flow and architecture of the system (Image generated with GPT Image 2 after careful, specific prompting to ensure accuracy to the actual project logic)*
 
 
@@ -47,7 +47,7 @@ for visitors.
 
 ### Wiring
 
-![CS Commons Door Sensor Wiring][(hardware/images/circuit-diagram.png)](https://raw.githubusercontent.com/Patrick948-stack/cs-commons-door-sensor/main/hardware/images/circuit-diagram.png)
+![CS Commons Door Sensor Wiring](https://raw.githubusercontent.com/Patrick948-stack/cs-commons-door-sensor/main/hardware/images/circuit-diagram.png)
 *A Diagram showing the full wiring architecture (Image generated with GPT Image 2 after careful, specific prompting to ensure accuracy to the actual project wiring)*
 
 
