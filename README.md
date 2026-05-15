@@ -112,11 +112,11 @@ Movement detected. Playing welcome message.
 ## Repository Structure
 
 cs-commons-door-sensor/
-├── firmware/          # Arduino source code, one folder for each development stage stage
-├── hardware/          # Parts list, wiring diagrams, photos
-├── docs/              # Setup guide and troubleshooting
-├── README.md
-└── LICENSE
+  firmware/          # Arduino source code, one folder for each development stage
+  hardware/          # Parts list, wiring diagrams, photos
+  docs/              # Setup guide and troubleshooting
+  README.md
+  LICENSE
 
 ## Authors
 
