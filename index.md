@@ -7,8 +7,8 @@ layout: default
 
 **Original sensor and audio system:** Arvin Shirchindorj, Ali Abbaka  
 **BLE notification system:** Patrick Mulikuza  
-Whitman College — Spring 2025
-CS 210 Computer Systems Fundementals
+Whitman College — Spring 2026
+CS 210 Computer Systems Fundamentals
 **Instructor:** Dr. William Bares 
 
 ---
@@ -239,7 +239,7 @@ If no phone is connected, the function exits immediately. This lets the audio
 still play, keeping the system from crashing just
 because one forgot to connect to the BLE.
 
-![LightBlue notification screenshot](hardware/images/ble-alert.png)
+![LightBlue notification screenshot](hardware/images/ble-alert.PNG)
 *A numbered alert arriving on the phone through LightBlue when someone enters the room.*
 
 
