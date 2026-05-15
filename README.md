@@ -6,6 +6,10 @@ This becomes the baseline. Every 300 milliseconds, it takes a new averaged readi
 If the difference exceeds 20 cm, movement is detected. A 5-second waiting period
 prevents repeated triggers from a single entry.
 
+![CS Commons Door Sensor Project Architecture](hardware/images/diagram.jpg)
+*A Diagram showing the logic flow and architecture of the system (Image generated with GPT Image 2 after careful, specific prompting to ensure accuracy to the actual project logic)*
+
+
 
 ## Project Stages
 
@@ -28,7 +32,6 @@ This repository is organized by development stage. Each stage has its own branch
 | Small Speaker | Audio output (via I2S) |
 | MicroSD Card (FAT32) | Holds `Welcome.mp3` |
 
-Full parts list: [hardware/PARTS_LIST.md](hardware/PARTS_LIST.md)
 
 ## Stage 1 — Basic Door Sensor
 
@@ -44,7 +47,9 @@ for visitors.
 
 ### Wiring
 
-Wiring diagram: [hardware/schematics/](hardware/schematics/)
+![CS Commons Door Sensor Wiring](hardware/images/circuit-diagram.png)
+*A Diagram showing the full wiring architecture (Image generated with GPT Image 2 after careful, specific prompting to ensure accuracy to the actual project wiring)*
+
 
 | Sensor / Module | ESP32 Pin |
 |-----------------|-----------|
